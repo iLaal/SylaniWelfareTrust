@@ -205,6 +205,14 @@ section.funfact-help{
 #mission-upcoming{
     color:#316dc3;
 }
+h3#mission-upcoming::after{
+    content: '';
+    background-color: green;
+    width: 60px;
+    height: 2px;
+    display: block;
+    margin-top: 10px;
+}
 #dash-dash{
     position: absolute;
     top: 25px;
@@ -231,6 +239,14 @@ section.funfact-help{
 }
 .upcoming-events{
     color:#316dc3;
+}
+h3.upcoming-events::after{
+    content: '';
+    background-color: green;
+    width: 60px;
+    height: 2px;
+    display: block;
+    margin-top: 10px;
 }
 #dash-dash1{
     position: absolute;
@@ -278,4 +294,11 @@ section.funfact-help{
     border: none;
     outline: none;
     padding: 0px 15px 0px 15px;
+}
+h5.usefulLinks::after{
+    content: '';
+    background-color: green;
+    width: 45px;
+    height: 2px;
+    display: block;
 }
